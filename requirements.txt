@@ -2,3 +2,7 @@ python-dotenv
 pandas
 numpy
 flask
+pymongo
+certifi
+
+# -e .
