@@ -4,6 +4,7 @@ numpy
 flask
 pymongo
 certifi
+scikit-learn
 pymongo[srv]==3.11
 
 # -e .
