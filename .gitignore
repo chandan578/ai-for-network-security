@@ -3,3 +3,4 @@ venv
 /Artifacts
 /logs
 __pycache__/
+/mlruns
