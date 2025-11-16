@@ -1,14 +1,15 @@
 python-dotenv
 pandas
 numpy
-flask
 pymongo
 certifi
+pymongo[srv]
 scikit-learn
-pymongo[srv]==3.11
-dill
-pyaml
 mlflow
+pyaml
 dagshub
+fastapi
+uvicorn
+python-multipart
 
 # -e .

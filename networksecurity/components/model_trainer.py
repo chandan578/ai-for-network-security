@@ -14,7 +14,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import( AdaBoostClassifier, GradientBoostingClassifier, RandomForestClassifier)
-import mlflow
+import mlflow  ## it is used to experiment tracking on local
+
+import dagshub   ##  it is used to experiment tracking MLFLOW with remote repository
+dagshub.init(repo_owner='chandan578', repo_name='ai-for-network-security', mlflow=True)
 
 
 
